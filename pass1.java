@@ -54,9 +54,9 @@ public class pass1
                                                                      p.println(lc);
                                                                      address=lc-1; 
                                                                }
-                                                    else
+                                                               else
                                                                {
-                                                               	for(int i=0;i<AD.length;i++)
+                                                               		for(int i=0;i<AD.length;i++)
 				                                              {
 				                                                       if(tt.equals(AD[i]))
 				                                                       {
@@ -66,15 +66,15 @@ public class pass1
 				                                               } 
 				                                             
 				                                        for(int i=0;i<IS.length;i++)
-                                                               	{
-		                                                              if(tt.equals(IS[i]))
+                                                               		{
+		                                                               if(tt.equals(IS[i]))
 		                                                               {
 		                                                                       p.print("IS "+(i+1)+" ");
 		                                                                       
 		                                                               }
                                                                        } 
                                                                        for(int i=0;i<UserReg.length;i++)
-                                                               	{
+                                                               		{
 		                                                               if(tt.equals(UserReg[i]))
 		                                                               {
 		                                                                       p.print((i+1)+" ");
@@ -83,7 +83,7 @@ public class pass1
 		                                                               
                                                                        } 	
                                                                        for(int i=0;i<DL.length;i++)
-                                                               {
+                                                               		{
 		                                                               if(tt.equals(DL[i]))
 		                                                               {
 		                                                                       p.print("DL "+(i+1)+" ");
@@ -140,10 +140,10 @@ public class pass1
 		                                                               }	
 		                                                               
 		                                                       if(tt.equals("DS"))
-		                                                     {
-		                                                       	int a=Integer.parseInt(st.nextToken());
-	                                                       		address=address+a-1;
-		                                                       	p.println();
+		                                                       {
+		                                                       		int a=Integer.parseInt(st.nextToken());
+	                                                       			address=address+a-1;
+		                                                       		p.println();
 		                                                       }
 		                                                       
                                                                }
@@ -177,4 +177,8 @@ public class pass1
                 catch(Exception e)
                 {
                         e.printStackTrace();
-                }    }  } 
+                }
+        }
+       
+} 
+
